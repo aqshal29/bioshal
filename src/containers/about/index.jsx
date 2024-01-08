@@ -8,35 +8,44 @@ import { FaDev, FaDatabase } from "react-icons/fa";
 
 const personalDetails = [
   {
-    label: "Name",
-    value: "John Doe",
+    label: "Nama:",
+    value: "Krisna Gion Bayu M",
   },
   {
-    label: "Age",
-    value: "27",
+    label: "Umur:",
+    value: "17",
   },
   {
-    label: "Address",
-    value: "India",
+    label: "Alamat:",
+    value: "Tanggul,Manggisan",
   },
   {
-    label: "Email",
-    value: "demo@example.com",
+    label: "Email:",
+    value: "krisnagion95@gmail.com",
   },
   {
-    label: "Contact No",
-    value: "+11 3456789056",
+    label: "No Telp:",
+    value: "+62 82231349229",
   },
+  {
+    label: "Sekolah:",
+    value: "Smkn 6 Jember",
+  },
+  {
+    label: "Bidang Keahlian:",
+    value: "Rekayasa Perangkat Lunak",
+  },
+
 ];
 
 const jobSummary =
-  "Seasoned and independent Front End Developer with 5 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about aesthetics and UI design. It is imperative that you provide a thorough and professional approach to your resume. As a Front End Developer you will be judged by your ability to use UX and UI concepts and follow design guidelines. It is about expressing your attention to detail and how you can help implement design ideas for your future employer";
+  "Rekayasa Perangkat Lunak di Indonesia dijadikan disiplin ilmu yang dipelajari mulai tingkat Sekolah Menengah Kejuruan sampai tingkatan Perguruan Tinggi. Di tingkat SMK, jurusan ini sudah memiliki kurikulum materi pelajaran sendiri yang sudah ditentukan oleh Dinas Pendidikan. Rekayasa Perangkat Lunak di tingkat SMK biasanya mempelajari materi-materi seperti Bahasa Pemrograman, Desain Web, Pengetahuan tetang Undang Undang HAKI dan ITE, dan sebagainya, tergantung dari sekolah dan kurikulum tiap tahunnya."
 
 const About = () => {
   return (
     <section id="about" className="about">
       <PageHeaderContent
-        headerText="About Me"
+        headerText="Tentang"
         icon={<BsInfoCircleFill size={40} />}
       />
       <div className="about__content">
@@ -52,8 +61,16 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer</h3>
-            <p>{jobSummary}</p>
+            <h3>BIODATA</h3>
+            <ul>
+              {personalDetails.map((item, i) => (
+                <li key={i}>
+                  <span className="title">{item.label}</span>
+                  <span className="value">{item.value}</span>
+                </li>
+              ))}
+            </ul>
+           
           </Animate>
 
           <Animate
@@ -68,16 +85,10 @@ const About = () => {
             }}
           >
             <h3 className="personalInformationHeaderText">
-              Personal Information
+              REKAYASA PERANGKAT LUNAK
             </h3>
-            <ul>
-              {personalDetails.map((item, i) => (
-                <li key={i}>
-                  <span className="title">{item.label}</span>
-                  <span className="value">{item.value}</span>
-                </li>
-              ))}
-            </ul>
+            <p>{jobSummary}</p>
+           
           </Animate>
         </div>
         <div className="about__content__servicesWrapper">

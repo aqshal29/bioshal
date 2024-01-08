@@ -1,42 +1,39 @@
 export const data = {
     experience: [
       {
-        title: "Consultant",
-        subTitle: "Miami, FL",
+        title: "Pernah PKL di IT Smart Jember (2022-2023)",
+        subTitle: "",
         description:
-          " User Experience, Visual Design",
+          " Berpengalaman sebagai teknisi Komputer ",
+
       },
       {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
+        title: "Backend Developer Aplikasi Optik (2023-sekarang)",
+        subTitle: "",
         description:
-          "Web development, Databases, Backend developement",
+          "Merancang database, menambahkan dan memfungsikan beberapa fitur",
+          date:"2023-sekarang",
       },
-      {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
-        description:
-          "Creative Direction Project Management, Team Leading",
-      },
+     
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "SDN Manggisan 1 (2012-2018)",
+        subTitle: "",
         description:
-          "10th Grade",
+          "Jln.argopuro No 63, Manggisan, Kec. Tanggul ",
       },
       {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        title: "SMPN 4 Tanggul (2018-2021)",
+        subTitle: "",
         description:
-          "12th Grade in Science",
+          "Jl. Kamboja No. 95 Tanggul-Jember",
       },
       {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
+        title: "SMKN 6 JEMBER (2021-2024)",
+        subTitle: "",
         description:
-          "Bachelor of technology in computer science",
+          "Jl. PB.Sudirman, Tekoan, Tanggul Kulon, Kec. Tanggul, Kabupaten Jember",
       },
     ],
   };

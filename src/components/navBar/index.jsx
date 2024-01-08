@@ -5,28 +5,16 @@ import { Link } from "react-router-dom";
 import "./styles.scss";
 const data = [
   {
-    label: "HOME",
+    label: "BERANDA",
     to: "/",
   },
   {
-    label: "ABOUT ME",
+    label: "TENTANG",
     to: "/about",
   },
   {
-    label: "SKILLS",
-    to: "/skills",
-  },
-  {
-    label: "RESUME",
+    label: "PENGALAMAN/PENDIDIKAN",
     to: "/resume",
-  },
-  {
-    label: "PORTFOLIO",
-    to: "/portfolio",
-  },
-  {
-    label: "CONTACT",
-    to: "/contact",
   },
 ];
 

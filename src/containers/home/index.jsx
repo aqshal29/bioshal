@@ -14,9 +14,10 @@ const Home = () => {
     <section id="home" className="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm John
+          <h3>Portofolio</h3>
+          Krisna Gion Bayu M
           <br />
-          Front end developer
+       SMKN 6 Jember
         </h1>
       </div>
       <Animate
@@ -31,7 +32,7 @@ const Home = () => {
         }}
       >
         <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+          <p>XII RPL 1</p>
         </div>
       </Animate>
     </section>

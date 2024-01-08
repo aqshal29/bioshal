@@ -4,10 +4,10 @@
 :root{
 
 
-    --yellow-theme-background-color : #1d1d1d;
-    --yellow-theme-main-color : #ffdd40;
-    --yellow-theme-sub-text-color : #ffffff;
-    --yellow-theme-nav-background-color : #181818;
+    --yellow-theme-background-color : #e6d1d1;
+    --yellow-theme-main-color : #ff4040;
+    --yellow-theme-sub-text-color : #130e0e;
+    --yellow-theme-nav-background-color : #ffffff;
 }
 
 *{
@@ -18,7 +18,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 60%;
     height: 100%;
 }
 

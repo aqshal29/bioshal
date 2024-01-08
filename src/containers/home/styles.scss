@@ -11,7 +11,7 @@
     justify-content: center;
 
     h1 {
-      color: var(--yellow-theme-main-color);
+      color:  #ffffff;
       margin: 0px;
       font-weight: 500;
       font-size: 8rem;
@@ -19,7 +19,18 @@
       position: relative;
       overflow: hidden;
       white-space: nowrap;
-      animation: typingEffectAnimation 2.5s steps(20, end);
+      animation: typingEffectAnimation 2.5s;
+    }
+    h3 {
+      color:  #ffffff;
+      margin: 0px;
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 5rem;
+      position: relative;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typingEffectAnimation 2.5s;
     }
   }
   &__contact-me{
@@ -27,20 +38,17 @@
     justify-content: center;
     margin-top: 15px;
 
-    button{
-      cursor: pointer;
+    p{
+    
       padding: 10px 70px;
       font-size: 2rem;
-      background: transparent;
       color: var(--yellow-theme-main-color);
-      border: 1.5px solid var(--yellow-theme-main-color);
-      border-radius: 4px;
       font-weight: 500;
 
-      &:hover{
-        background: var(--yellow-theme-main-color);
-        color: #000000;
-      }
+      // &:hover{
+      //   background: var(--yellow-theme-main-color);
+      //   color: #000000;
+      // }
     }
   }
 }
@@ -74,6 +82,6 @@
   }
 
   to {
-    width: 100%;
+    width: 50%;
   }
 }
