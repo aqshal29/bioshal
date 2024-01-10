@@ -15,7 +15,7 @@ const Home = () => {
       <div className="home__text-wrapper">
         <h1>
           <h3>Portofolio</h3>
-          Krisna Gion Bayu M
+          Aqshal laula Aulia
           <br />
        SMKN 6 Jember
         </h1>

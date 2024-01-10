@@ -14,7 +14,7 @@ const Resume = () => {
   return (
     <section id="resume" className="resume">
       <PageHeaderContent
-        headerText="Pengalaman & Pendidikan"
+        headerText="Pengalaman Pendidikan"
         icon={<BsInfoCircleFill size={40} />}
       />
       <div className="timeline">

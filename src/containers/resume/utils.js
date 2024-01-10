@@ -1,14 +1,14 @@
 export const data = {
     experience: [
       {
-        title: "Pernah PKL di IT Smart Jember (2022-2023)",
+        title: "Pernah PKL AZHACOM (2022-2023)",
         subTitle: "",
         description:
           " Berpengalaman sebagai teknisi Komputer ",
 
       },
       {
-        title: "Backend Developer Aplikasi Optik (2023-sekarang)",
+        title: "Backend Developer Aplikasi TopUp (2023-sekarang)",
         subTitle: "",
         description:
           "Merancang database, menambahkan dan memfungsikan beberapa fitur",
@@ -18,16 +18,16 @@ export const data = {
     ],
     education: [
       {
-        title: "SDN Manggisan 1 (2012-2018)",
+        title: "SDN PADOMASAN 06 (2012-2018)",
         subTitle: "",
         description:
-          "Jln.argopuro No 63, Manggisan, Kec. Tanggul ",
+          "Sariono, Kec. Jombang ",
       },
       {
-        title: "SMPN 4 Tanggul (2018-2021)",
+        title: "SMPN 2 JOMBANG (2018-2021)",
         subTitle: "",
         description:
-          "Jl. Kamboja No. 95 Tanggul-Jember",
+          "Sariono, kec. Jombang",
       },
       {
         title: "SMKN 6 JEMBER (2021-2024)",

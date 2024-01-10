@@ -4,10 +4,10 @@
 :root{
 
 
-    --yellow-theme-background-color : #e6d1d1;
-    --yellow-theme-main-color : #ff4040;
-    --yellow-theme-sub-text-color : #130e0e;
-    --yellow-theme-nav-background-color : #ffffff;
+    --yellow-theme-background-color : hwb(0 0% 100% / 0.811);
+    --yellow-theme-main-color : #8b0cb1;
+    --yellow-theme-sub-text-color : hsl(0, 0%, 100%);
+    --yellow-theme-nav-background-color : hsl(0, 0%, 100%);
 }
 
 *{

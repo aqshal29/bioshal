@@ -13,7 +13,7 @@ const data = [
     to: "/about",
   },
   {
-    label: "PENGALAMAN/PENDIDIKAN",
+    label: "PENGALAMAN PENDIDIKAN",
     to: "/resume",
   },
 ];

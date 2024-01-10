@@ -9,7 +9,7 @@ import { FaDev, FaDatabase } from "react-icons/fa";
 const personalDetails = [
   {
     label: "Nama:",
-    value: "Krisna Gion Bayu M",
+    value: "Aqshal Laula Aulia",
   },
   {
     label: "Umur:",
@@ -17,15 +17,15 @@ const personalDetails = [
   },
   {
     label: "Alamat:",
-    value: "Tanggul,Manggisan",
+    value: "Jombang,Sariono",
   },
   {
     label: "Email:",
-    value: "krisnagion95@gmail.com",
+    value: "aqshaloffical123@gmail.com",
   },
   {
     label: "No Telp:",
-    value: "+62 82231349229",
+    value: "085225648296",
   },
   {
     label: "Sekolah:",
@@ -39,7 +39,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "Rekayasa Perangkat Lunak di Indonesia dijadikan disiplin ilmu yang dipelajari mulai tingkat Sekolah Menengah Kejuruan sampai tingkatan Perguruan Tinggi. Di tingkat SMK, jurusan ini sudah memiliki kurikulum materi pelajaran sendiri yang sudah ditentukan oleh Dinas Pendidikan. Rekayasa Perangkat Lunak di tingkat SMK biasanya mempelajari materi-materi seperti Bahasa Pemrograman, Desain Web, Pengetahuan tetang Undang Undang HAKI dan ITE, dan sebagainya, tergantung dari sekolah dan kurikulum tiap tahunnya."
+  "Rekayasa Perangkat Lunak (RPL) adalah suatu bidang keahlian di tingkat Sekolah Menengah Kejuruan (SMK) yang fokus pada pengembangan, perancangan, dan implementasi perangkat lunak. Program ini bertujuan untuk mempersiapkan siswa dengan pengetahuan dan keterampilan yang dibutuhkan untuk menjadi seorang ahli dalam menciptakan solusi perangkat lunak yang efisien dan inovatif."
 
 const About = () => {
   return (
